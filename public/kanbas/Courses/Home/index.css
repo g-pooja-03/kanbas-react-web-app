@@ -1,0 +1,40 @@
+.gray-button {
+    background-color: lightgrey;
+    color: black;
+    padding: 10px 20px;
+    border: 2px black;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 2px black !important;
+}
+
+.button-container {
+    display: flex;
+    justify-content: right;
+}
+
+.button-container button {
+    margin: 5px;
+}
+
+.button-gray-vertical {
+    display: block;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    color: black;
+    padding: 10px 20px;
+}
+
+.select {
+    height: 50px !important;
+    width: 150px !important;
+}
+
+.black-text {
+    /*margin-right: 10px !important;*/
+    color: black;
+}

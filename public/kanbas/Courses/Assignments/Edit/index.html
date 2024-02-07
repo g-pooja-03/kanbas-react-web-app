@@ -1,0 +1,125 @@
+<html>
+    <head></head>
+    <body>
+        <select>
+            <option>Edit</option>
+            <option>Speed Grade</option>
+            <option>Duplicate</option>
+            <option>Delete</option>
+            <option>Move To</option>
+            <option>Send To</option>
+            <option>Copy To</option>
+            <option>Share to Commons</option>
+        </select>
+        <hr>
+        <h3>Assignment Name</h3>
+        <input placeholder="" /><br />
+        <form id="descp">
+            <label></label><br/>
+            <textarea cols="50" rows="5">Assignment Description</textarea>
+        </form>
+
+        <label>Points</label><br />
+        <input placeholder="100" /><br />
+        <br>
+
+        <label>Assignment Group</label><br />
+        <select>
+            <option>ASSIGNMENTS</option>
+            <option>QUIZZES</option>
+            <option>EXAMS</option>
+            <option>PROJECTS</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Display Grade as</label><br />
+        <select>
+            <option>Percentage</option>
+            <option>Decimal</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Submission Type</label><br />
+        <select>
+            <option>Online</option>
+            <option>In Class</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Submission Attempts</label><br />
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>Unlimited</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Plagiarism Review</label><br />
+        <select>
+            <option>On</option>
+            <option>Off</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Online Entry Options</label>
+        <br/>
+        <input type="checkbox" value="Text Entry"
+               name="check-entry" id="chkbox-entry" checked/>
+        <label for="chkbox-entry">Text Entry</label>    <br/>
+
+        <input type="checkbox" value="Website URL"
+               name="check-url" id="chkbox-url"/>
+        <label for="chkbox-url">Website URL</label>    <br/>
+
+        <input type="checkbox" value="Media Recordings"
+               name="check-med" id="chkbox-med"/>
+        <label for="chkbox-med">Media Recordings</label>    <br/>
+
+        <input type="checkbox" value="Student Annotation"
+               name="check-ann" id="chkbox-ann"/>
+        <label for="chkbox-ann">Student Annotation</label>    <br/>
+
+        <input type="checkbox" value="File Uploads"
+               name="check-up" id="chkbox-up"/>
+        <label for="chkbox-up">File Uploads</label>    <br/>
+        <br>
+        <br>
+
+        <label>Assign to</label><br />
+        <input placeholder="Everyone" /><br />
+        <br>
+
+        <label for="due">Due:</label><br />
+        <input type="date" id="due" name="due">
+        <br>
+        <br>
+
+        <label for="avail">Available From:</label><br />
+        <input type="date" id="avail" name="avail">
+        <br>
+        <br>
+
+        <label for="until">Until:</label><br />
+        <input type="date" id="until" name="until">
+        <br>
+        <br>
+
+        <table>
+            <tbody>
+                <td valign="top">
+                    <a href="/Kanbas/Courses/Assignments/screen.html">
+                        <button>Cancel</button>
+                    </a>
+                    <a href="/Kanbas/Courses/Assignments/screen.html">
+                        <button>Save</button>
+                    </a>
+                </td>
+            </tbody>
+        </table>
+    </body>
+</html>
