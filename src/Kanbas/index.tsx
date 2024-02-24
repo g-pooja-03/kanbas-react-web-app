@@ -2,9 +2,10 @@ import KanbasNavigation from "./Navigation";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import Courses from "./Courses";
+import "./index.css";
 function Kanbas() {
     return (
-        <div className="d-flex">
+        <div className="d-flex flex-row">
             <KanbasNavigation />
             <div style={{ flexGrow: 1 }}>
                 <Routes>

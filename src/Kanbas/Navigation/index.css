@@ -5,8 +5,12 @@
     width: 80px;
 }
 .wd-kanbas-navigation li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     padding: 10px;     margin-bottom: 10px;
-    font-size: 0.8em;  text-align: center;
+    font-size: 15px;  text-align: center;
 }
 .wd-kanbas-navigation li.wd-active {
     background-color: white;
