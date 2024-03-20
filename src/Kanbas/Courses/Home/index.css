@@ -2,14 +2,12 @@
     background-color: lightgrey;
     color: black;
     padding: 10px 20px;
-    border: 2px black;
 }
 
 .red-button {
     background-color: red;
     color: white;
     padding: 10px 20px;
-    border: 2px black !important;
 }
 
 .button-container {

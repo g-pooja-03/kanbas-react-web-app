@@ -1,8 +1,8 @@
 import React from "react";
+import "./index.css";
 import {FaCheckCircle, FaEllipsisV, FaPlusCircle} from "react-icons/fa";
 import {Link, useParams} from "react-router-dom";
 import {assignments} from "../../Database";
-import "./index.css";
 
 function Assignments() {
     const {courseId} = useParams();
@@ -35,7 +35,7 @@ function Assignments() {
                                 <span className="float-end">
                   <FaCheckCircle className="text-success"/>
                   <FaPlusCircle className="ms-2"/><FaEllipsisV className="ms-2"/>
-                  </span>
+           npm st       </span>
                             </div>
                             <ul className="list-group">
                                 {assignmentList.map((assignment) => (

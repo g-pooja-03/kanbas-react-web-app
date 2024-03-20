@@ -31,3 +31,39 @@
 .wd-modules > li {
     margin-bottom: 20px;
 }
+
+.red-but {
+    background-color: red;
+    color: white;
+    padding: 5px 10px !important;
+    margin: 5px !important;
+}
+
+.slim-gray-but {
+    background-color: darkgray;
+    color: black;
+    padding: 5px 10px !important;
+    margin: 5px !important;
+}
+
+.form-control {
+    height: 25px !important;
+    width: 150px !important;
+    margin: 5px !important;
+    border: 1px solid black !important;
+}
+
+.area {
+    display: flex;
+    height: 30px !important;
+    width: 200px !important;
+    margin: 5px !important;
+    border: 1px solid black !important;
+    justify-content: flex-end;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
